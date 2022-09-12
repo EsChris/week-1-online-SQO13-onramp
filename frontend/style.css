@@ -1,0 +1,112 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+p{
+  color: rgb(67, 64, 64);
+}
+/*Three cloumn Containers for customers*/
+.flex-container {
+  display: flex;
+  flex-direction:row;
+  column-gap: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+}
+.flex-container > div {
+  background-color: white;
+  padding: 20px;
+  width:300px;
+  justify-content: center;
+  height: fit-content;
+  flex-grow: 3;
+}
+.container {
+  background-color: rgb(199, 234, 228);
+  padding: 40px;
+ 
+}
+/*Header that bears the Image, title, subtitle and twitter icon*/
+.header {
+  display:flex;
+}
+.title{
+  margin-left: 5px;
+  margin-top: -2px;
+}
+.subtitle{
+  color: rgb(125, 121, 121);
+  font-size: 13px;
+}
+/* #sarah, #jack, #jessica {
+  background-color: white;
+  padding: 20px;
+  margin-left: 30px;
+  width: 250px;
+} */
+
+img {
+  border-radius: 50%;
+  width: 50px;
+ 
+}
+/*Last single column for subscriber*/
+.subscriber{
+  background-color:rgb(245, 235, 221); 
+  padding: 30px;
+  /* margin-top: 30px;*/ 
+  width: fit-content; 
+  border: 1px solid red;
+  border-radius: 8px;
+  justify-content:center;
+  flex-wrap: wrap;
+  /* margin-left: 32%;
+  margin-bottom: 40px; */
+}
+/* .section2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+} */
+
+.section2_text{
+  text-align: center;
+}
+/*Icons Section*/
+.fa {
+  font-size: 48px;
+}
+.fa-check-circle {
+  color: rgb(57, 194, 149);
+}
+.fa-twitter{
+  color:  #00acee;
+  
+}
+.fa-heart-o{
+  color: red;
+}
+/*Long Button that displays "Start Trial with Twitter"*/
+button {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #00acee;
+  padding: 10px;
+  border: 0 solid #00acee;
+  color: white;
+  font-size: 1rem;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+.date{
+  color: rgb(125, 121, 121);
+  
+}
